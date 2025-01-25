@@ -1,0 +1,24 @@
+.text{
+  color: var(--text-secundary);
+  font: var(--text);
+}
+
+.text-sm{
+  color: var(--text-secundary);
+  font: var(--text-sm);
+}
+
+.text-h1{
+  color: var(--text-primary);
+  font: var(--h1);
+}
+
+.text-h2{
+  color: var(--text-primary);
+  font: var(--h2);
+}
+
+.text-h3{
+  color: var(--text-primary);
+  font: var(--h3);
+}
