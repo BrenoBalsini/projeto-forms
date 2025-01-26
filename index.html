@@ -27,24 +27,43 @@
             <p class="text">Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.</p>
           </header>
 
-          <div id="kid-info">
-            <h3 class="text-h3">Informações da criança</h3>
+          <form action="" method="post" enctype="multipart/form-data">
+            <fieldset class="child-info">
+              <legend>Informações da criança</legend>
+              <div class="input-wrapper">
+                <label for="fullname" class="text-sm">Nome completo</label>
+                <input type="text" id="fullname" name="fullname">
+              </div>
 
-            <label for="name" class="text-sm">Nome completo</label>
-            <input type="text" id="name">
-            
-            <label for="birth" class="text-sm">Data de nascimento</label>
-            <input  type="date" id="birth">
-            
-            <label for="sex" class="text-sm">Sexo</label>
-            <input type="text" id="sex">
-            
-            <label for="nome" class="text-sm">Nome completo</label>
-            <input type="text" id="nome">
+              <div class="input-wrapper">
+                <label for="birth" class="text-sm">Data de nascimento</label>
+                <input  type="date" id="birth" name="birth">
+              </div>
 
+              <div class="select-wrapper">
+                <label for="gender" class="text-sm">Sexo</label>
+                <select name="gender" id="gender">
+                  <option value="male">Masculino</option>
+                  <option value="female">Feminino</option>
+                  <option value="na">Prefiro não responder</option>
+                </select>
+              </div>
 
-              
-          </div>
+              <div class="textarea-wrapper">
+                <label for="medical-info" class="text-sm">Informçãoes médicas</label>
+                <textarea name="medical-info" id="medical-info" cols="20" rows="10" placeholder="Ela tem alergia a glúten"></textarea>
+              </div>
+
+              <div class="droparea-wrapper">
+                <label for="birth-file" class="text-sm">Certidão de nascimento</label>
+                <input type="file">
+                <img src="assets/grey-icons/cloud-upload.svg" alt="">
+                <p>
+                  Clique aqui <br> para selecionar os arquivos
+                </p>
+              </div>
+            </fieldset>   
+          </form>
         </div>
       </main>
 
