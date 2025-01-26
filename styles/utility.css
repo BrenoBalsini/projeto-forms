@@ -1,10 +1,10 @@
 .text{
-  color: var(--text-secundary);
+  color: var(--text-secondary);
   font: var(--text);
 }
 
 .text-sm{
-  color: var(--text-secundary);
+  color: var(--text-secondary);
   font: var(--text-sm);
 }
 

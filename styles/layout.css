@@ -38,9 +38,15 @@ main{
 aside{
   padding: 4rem;
   background-color: var(--surface-secondary);
-
+  display: grid;
+  gap: 2rem;
+  span{
+    color: var(--text-highlight);
+  }
   & .aside-container{
     max-width: 31rem;
     margin-right: auto;
+    display: grid;
+    gap: .5rem;
   }
 }
