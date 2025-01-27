@@ -33,7 +33,8 @@
 
   /* Stroke */
   --stroke-default: #D6D3D1;
-  --stroke-highlight: #F3541C;
+  --stroke-highlight: #f3551c;
+  --stroke-teste: #f3551c;
 
   /* Semantic */
   --semantic-error:#DC2626;
