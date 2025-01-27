@@ -11,6 +11,13 @@ input, textarea, select{
   font: var(--text);
 }
 
+legend {
+  font: var(--h3);
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+}
+
+
 label {
   font: var(--text-sm);
   color: var(--text-secondary);
@@ -21,7 +28,7 @@ label {
 
 input:focus, select:focus, textarea:focus, input[type="date"]:focus-within{
   outline: .25rem solid var(--surface-secondary);
-  border: .125rem solid var(--stroke-highlight);
+  border: 0.125rem solid var(--stroke-highlight);
   outline-offset: .1px;
 }
 
@@ -62,5 +69,9 @@ input {
     border: 1px solid var(--stroke-default);
     color: var(--text-primary);
   }
+}
+
+.helper {
+  margin-top: 0.25rem;
 }
 
